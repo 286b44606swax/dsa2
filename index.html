@@ -15,36 +15,52 @@
             padding: 0;
         }
         h1 {
-            font-size: 30px;
-            margin-top: 50px;
+            font-size: 42px;
+            margin-top: 30px;
             position: relative;
             z-index: 1;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 4px #000;
         }
         .info {
-            margin-top: 20px;
-            font-size: 24px;
-            line-height: 1.5; /* Improved line height for better readability */
+            margin: 20px 0;
+            font-size: 28px;
+            line-height: 1.8;
+            background: rgba(0,0,0,0.5);
+            padding: 20px 40px;
+            border-radius: 12px;
         }
         .container {
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;
-            height: 100vh;
+            justify-content: flex-start;
+            min-height: 100vh;
             z-index: 1;
+            padding-top: 20vh;
         }
         .image-box {
-            border: 2px solid rgb(8, 8, 8);
-            padding: 1px;
+            border: 4px solid rgba(8, 8, 8, 0.8);
+            border-radius: 8px;
+            padding: 8px;
             display: inline-block;
-            margin-top: 20px; /* Added margin for spacing */
+            margin: 30px 0;
+            background: rgba(0,0,0,0.3);
         }
         .discord-link {
-            font-size: 24px;
-            margin-top: 20px;
+            font-size: 28px;
+            margin: 30px 0;
             text-decoration: none;
             color: red;
             z-index: 1;
+            padding: 15px 30px;
+            background: rgba(0,0,0,0.7);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        .discord-link:hover {
+            background: rgba(0,0,0,0.9);
+            transform: scale(1.05);
         }
     </style>
 </head>
