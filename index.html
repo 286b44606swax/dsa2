@@ -11,18 +11,19 @@
             color: red;
             text-align: center;
             font-family: Tempus Sans ITC, sans-serif;
+            margin: 0;
+            padding: 0;
         }
         h1 {
             font-size: 30px;
-            margin-top: 350px;
-            position: absolute;
-            top: 20%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+            margin-top: 50px;
+            position: relative;
+            z-index: 1;
         }
         .info {
-            margin-top: 50px;
-            font-size: 30px;
+            margin-top: 20px;
+            font-size: 24px;
+            line-height: 1.5; /* Improved line height for better readability */
         }
         .container {
             display: flex;
@@ -30,25 +31,28 @@
             align-items: center;
             justify-content: center;
             height: 100vh;
+            z-index: 1;
         }
         .image-box {
             border: 2px solid rgb(8, 8, 8);
             padding: 1px;
             display: inline-block;
+            margin-top: 20px; /* Added margin for spacing */
         }
         .discord-link {
             font-size: 24px;
             margin-top: 20px;
             text-decoration: none;
             color: red;
+            z-index: 1;
         }
     </style>
 </head>
 <body>
-    <h1> DET IS HERE  tala is here </h1>
+    <h1>DET IS HERE - Tala is here</h1>
     <div class="container">
         <div class="image-box">
-            <img src="https://cdn.discordapp.com/attachments/1285928217378820117/1387930011935178762/enhanced_Screenshot_2025-06-27_015626.png?ex=68611c4d&is=685fcacd&hm=56aa369f6a53cd2cb4ea38f8fd1985f37ab3ebc1271cb60af60a524151585ce2&" alt="Skull Image" width="900">
+            <img src="https://cdn.discordapp.com/attachments/1285928217378820117/1387930011935178762/enhanced_Screenshot_2025-06-27_015626.png?ex=68611c4d&is=685fcacd&hm=56aa369f6a53cd2cb4ea38f8fd1985f37ab3ebc1271cb60af60a524151585ce2&" alt="Skull Image" width="800">
         </div>
         <div class="info" id="user-info">
             <p><strong>IP:</strong> Loading...</p>
